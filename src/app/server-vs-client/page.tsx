@@ -2,9 +2,9 @@ import React from "react";
 import { add, subtract } from "@/utils/index";
 
 const ServerComp = () => {
-  const result1 = add(5, 3);
+  const result = add(5, 3);
   const result2 = subtract(10, 4);
-  console.log(result1);
+  console.log(result);
   console.log(result2);
   console.log("This is from Server");
   return (
