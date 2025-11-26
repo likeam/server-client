@@ -6,7 +6,7 @@ const ServerComp = () => {
   const result2 = subtract(10, 4);
   console.log(result);
   console.log(result2);
-  console.log("This is from Server");
+  console.log("This is From Server");
   return (
     <div>
       <h1>Hello from Server Compontnts</h1>
